@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Yoonhee Kim - Tables</title>
+        <meta name="description" content="COMP1223 Assignment 2">
+        <meta name="keywords" content="HTML5, CSS, personal web pages">
+        <meta name="author" content="Yoonhee Kim">
+        <link rel="stylesheet" href="tables-style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="mainbody">
+            <header>
+                <img src="images/aayuooh2.png" alt="logo" class="logo">
+                 <nav>
+                    <ul class="nav__links">
+                        <li><a href="1home.html" style="font-size:130%;">Home</a></li>
+                        <li><a href="2resume.html">Resume</a></li>
+                        <li><a href="#" id="pressed-pg">HTML5 Tables</a></li>
+                        <li><a href="4lists.html">HTML5 Lists</a></li>
+                    </ul>
+                </nav>
+                <a href="5contact.html" class="cta"><span>Contact</span></a>
+            </header>
+            
+            <div class="inner">
+                <h1>TABLES</h1>
+
+                <div class="innertext">
+                    <!--    Table example 1     -->
+                    <h3>Table example 1.</h3>
+                    <table class="te1">
+                        <thead>
+                            <tr>
+                                <th>Attribute</th>
+                                <th>Values</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Width</td>
+                                <td>40%</td>
+                            </tr>
+                            <tr>
+                                <td>Cellpadding</td>
+                                <td>10px</td>
+                            </tr>
+                            <tr>
+                                <td>Cellspacing</td>
+                                <td>5px</td>
+                            </tr>
+                            <tr>
+                                <td>Alignment</td>
+                                <td>Center</td>
+                            </tr>
+                            <tr>
+                                <td>Border</td>
+                                <td>3px solid #3a3a3a</td>
+                            </tr>
+                            <tr>
+                                <td>BG color</td>
+                                <td>#3a3a3a for th tags<br>white for td tags</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <!--    Table example 2     -->
+                    <h3>Table example 2.</h3>
+                    <table class="te2">
+                        <thead>
+                            <tr>
+                                <th colspan="4">Time Table</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Block</td>
+                                <th>MON</th>
+                                <th>WED</th>
+                                <th>FRI</th>
+                            </tr>
+                            <tr>
+                                <td>1st</td>
+                                <td>Listening</td>
+                                <td>Writing</td>
+                                <td rowspan="2">Speaking</td>
+                            </tr>
+                            <tr>
+                                <td>2nd</td>
+                                <td>Reading</td>
+                                <td>Grammer</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" style="text-align: center;background-color: #048563;font-weight: 700;color: white;">Lunch Time</td>
+                            </tr>
+                            <tr>
+                                <td>3rd</td>
+                                <td colspan="2">Club Activity</td>
+                                <td>Grammer</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <!--    Table example 3     -->
+                    <h3>Table example 3.</h3>
+                    <table class="te3">
+                        <tr>
+                            <td>
+                                <table class="te3-in1">
+                                    <caption>Game 1</caption>
+                                    <tr>
+                                        <td>Blue<br>Team</td>
+                                        <td>42</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Yellow<br>Team</td>
+                                        <td>58</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table class="te3-in2">
+                                    <tr>
+                                        <td>Red Team</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Blue Team</td>
+                                        <td>53</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Yellow Team</td>
+                                        <td>35</td>
+                                    </tr>
+                                    <caption>Game 2</caption>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <!--    Table example 4     -->
+                    <h3>Table example 4.</h3>
+                    <table class="te4">
+                        <tr>
+                            <td>
+                                <figure>
+                                    <img src="images/gb.png" alt="Georgebrown">
+                                    <figcaption><b>Yoonhee Kim</b><br><i>yoonhee.kim@georgebrown.ca</i></figcaption>
+                                </figure>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <!--    Table example 5     -->
+                    <h3>Table example 5.</h3>
+                    <table class="te5">
+                        <tr>
+                            <td>COMP</td>
+                            <td>1223</td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <br>
+                <hr>
+
+                <br>
+                <div class="btt">
+                    <a href="#"><img src="images/backtotop1.png" alt="backtotop"></a>
+                </div>
+                <div class="btt-text">
+                    <p>Back to top</p>
+                </div>
+
+                <br>
+                <br>
+            </div>
+        </section>
+
+        <script src="https://my.gblearn.com/js/loadscript.js"></script>
+
+    </body>
+</html>

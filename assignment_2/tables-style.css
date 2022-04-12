@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F3;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+.nav__links{
+    list-style: none;
+    padding-left: 40px;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3A3A3A;
+    text-decoration: none;
+}
+.nav__links li a:hover{
+    color: #D0542F;
+}
+#pressed-pg{
+    text-decoration: overline;
+}
+.cta{
+    top: 40px;
+    right: 80px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #3A3A3A;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#F4F4F3,#F4F4F3),radial-gradient(circle at top left,#D0542F,#048563);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.cta span{
+    display: block;
+    margin: 8px 22px;
+}
+.mainbody{
+    width: 100%;
+    height: 300%;
+}
+.inner{
+    height: 70%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #3A3A3A;
+}
+.inner h1{
+    font-size: 45px;
+    display: table;
+    margin: 0 auto 2% auto;
+}
+.innertext h3{
+    font-size: 24px;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 1.5%;
+}
+/*Table Example 1*/
+.te1{
+    border: 3px solid #3a3a3a;
+    width: 40%;
+    display: table;
+    margin: 0 auto 1.5% auto;
+    border-spacing: 5px;
+}
+.te1 th{
+    border: 1px solid #3a3a3a;
+    padding: 10px;
+    background-color: #3a3a3a;
+    color: white;
+}
+.te1 td{
+    border: 1px solid #3a3a3a;
+    padding: 10px;
+    background-color: white;
+}
+/*Table Example 2*/
+.te2{
+    border: 5px solid #3a3a3a;
+    border-collapse: collapse;
+    width: 50%;
+    display: table;
+    margin: 0 auto 1.5% auto;
+}
+.te2>thead{
+    font-size: 20px;
+}
+.te2>thead th{
+    background-color: white;
+}
+.te2 th{
+    border: 2px solid #3a3a3a;
+    padding: 10px;
+}
+.te2 td{
+    border: 2px solid #3a3a3a;
+    padding: 10px;
+    text-align: center;
+}
+.te2 tbody tr :nth-child(1){
+    text-align: right;
+    background-color: #D0542F;
+    font-weight: 600;
+    color: white;
+}
+.te2 tbody th{
+    background-color: #3a3a3a;
+    color: white;
+}
+/*Table Example 3*/
+.te3{
+    border: 4px solid #3a3a3a;
+    border-collapse: collapse;
+    width: 40%;
+    display: table;
+    margin: 0 auto 1.5% auto;
+}
+.te3 td{
+    border: 4px dotted #acacac;
+}
+.te3-in1, .te3-in2{
+    border: 1px solid #3a3a3a;
+    border-collapse: collapse;
+    display: table;
+    margin: 5% auto;
+}
+.te3-in1{
+    width: 90%;
+    border: 2px solid #3a3a3a;
+}
+.te3-in1 td{
+    text-align: center;
+    border: 2px dotted #3a3a3a;
+    padding: 5px;
+}
+.te3-in1 tbody tr :nth-child(1){
+    width: 60%;
+    font-weight: 700;
+}
+.te3-in2{
+    caption-side: bottom;
+    width: 90%;
+    border: 2px solid #3a3a3a;
+}
+.te3-in2 td{
+    text-align: center;
+    border: 2px dotted #3a3a3a;
+    padding: 5px;
+}
+.te3-in2 tbody tr :nth-child(1){
+    width: 65%;
+    font-weight: 700;
+}
+
+/*Table Example 4*/
+.te4{
+    border: 3px solid #3a3a3a;
+    width: 35%;
+    display: table;
+    margin: 0 auto 1.5% auto;
+}
+.te4 figure{
+    display: table;
+    margin: 3% auto 3% auto;
+}
+.te4 figcaption{
+    text-align: center;
+}
+/*Table Example 5*/
+.te5{
+    border: 4px solid #3a3a3a;
+    width: 20%;
+    height: 100px;
+    display: table;
+    margin: 0 auto 1.5% auto;
+}
+.te5 tr :nth-child(1){
+    vertical-align: bottom;
+    text-align: left;
+}
+.te5 td{
+    vertical-align: top;
+    text-align: right;
+    padding: 5px 10px 5px 10px;
+}
+/*Back to top button*/
+.btt{
+    display: table;
+    margin: 0% auto;
+}
+.btt img{
+    height: 38px;
+}
+.btt-text{
+    display: table;
+    margin: 0% auto;
+    font-size: 10pt;
+    font-weight: 600;
+}
+body>#gblearn_message_holder{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 10%;
+    display: block;
+    margin-bottom: 20px;
+    bottom: 0;
+    font-size: 10pt;
+}
